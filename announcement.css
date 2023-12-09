@@ -1,0 +1,196 @@
+/* <span style="font-family: verdana, geneva, sans-serif;"> import google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background: rgb(233, 233, 233);
+}
+.container{
+  display: flex;
+  margin-left: 0px;
+}
+nav{
+    position: sticky;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height: 100vh;
+    background: #6d6ac4;
+  }
+  .navbar{
+    width: 250px;
+    margin: 0 auto;
+  }
+.logo{
+  margin: 2rem 0 1rem 0;
+  padding-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+.logo img{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+ul{
+  margin: 0 auto;
+}
+li{
+  padding-bottom: 2rem;
+}
+li a{
+  font-size: 16px;
+  color: whitesmoke;
+  padding: 10px;
+  padding-right: 15px;
+  padding-left: 0px;
+}
+li a:hover{
+    background-color: rgba(245, 245, 245, 0.432);
+    color: whitesmoke;
+    border-radius: 10px;
+}
+nav i{
+  width: 50px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.logout{
+  position: absolute;
+  bottom: 20px;
+}
+.main-top{
+  width: 1310px;
+  height: 50px;
+  background: #6d6ac4;
+  font-size: 18px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: whitesmoke;
+}
+.main-body{
+  padding: 10px 10px 10px 20px;
+}
+.main1{
+    text-align: left;
+    position: absolute;
+    left: 300px;
+}
+#head{
+    font-size: 20px;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+h1{
+  margin: 20px 10px;
+  font-weight:600;
+}
+.tags_bar{
+  width: 55%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.tag{
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+.tag i{
+  margin-right: 0.7rem;
+}
+.row{
+  display: flex;
+  padding: 10px;
+  margin-top: 1.3rem;
+  justify-content: space-between;
+}
+.row p{
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+.tags_bar{
+  width: 55%;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+}
+.tag{
+  background: #fff;
+  padding: 10px 15px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  cursor: pointer;
+}
+.tag i{
+  margin-right: 0.7rem;
+}
+.row{
+  display: flex;
+  padding: 10px;
+  margin-top: 1.3rem;
+  justify-content: space-between;
+}
+.row p{
+  color: rgb(54, 54, 54);
+  font-size: 15px;
+}
+#title{
+    border: 3px solid whitesmoke;
+    width: 500px;
+    color: whitesmoke;
+}
+#box{
+    margin-left: 450px;
+}
+.main-top p{
+    position: relative;
+    left: 450px;
+}
+input{
+    padding: 5px;
+    border:2px solid #6d6ac4;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    display: block;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: bolder;
+}
+button:hover{
+    background-color: #6d6ac4;
+    color: whitesmoke;
+    font-weight: bolder;
+    transition: 0.5s;
+}
+label{
+    position: relative;
+    top: -30px;
+}
+#jobtitle1{
+    position: relative;
+}
+#tagline{
+    position: relative;
+    top: 13px;
+}
